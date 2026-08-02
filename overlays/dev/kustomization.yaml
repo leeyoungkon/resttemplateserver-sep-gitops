@@ -3,4 +3,4 @@ kind: Kustomization
 images:
 - name: resttemplateserver-sep
   newName: 210.90.24.172:8080/camit/yklee2002/resttemplateserver-sep
-  newTag: f8fee2610dcf51a25a441cdce062aecaef62710b
+  newTag: c10bd1e89eaba006eda39ffc8dc75ccf6aeeb2d4
