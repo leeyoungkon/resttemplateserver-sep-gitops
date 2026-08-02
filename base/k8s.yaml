@@ -14,6 +14,9 @@ spec:
       labels:
         app: resttemplateserver-sep
     spec:
+      imagePullSecrets:
+        - name: harbor-secret
+        
       containers:
         - name: resttemplateserver-sep
           image: 210.90.24.172:8080/camit/yklee2002/resttemplateserver-sep:latest
