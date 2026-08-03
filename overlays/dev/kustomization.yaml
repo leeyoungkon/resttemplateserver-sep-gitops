@@ -1,10 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 resources:
-  - ../../base
-
+- ../../base
 images:
 - name: resttemplateserver-sep
   newName: 210.90.24.172:8080/camit/yklee2002/resttemplateserver-sep
-  newTag: latest
+  newTag: 070acb715e2bf1e6d529d5cd6af646a6a93078b8
